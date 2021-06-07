@@ -1,9 +1,13 @@
+/*
+ *  UCF COP3330 Summer 2021 Assignment 1 Solution
+ *  Copyright 2021 Tsehai Boucaud
+ */
 package base;
 import java.util.Scanner;
 import java.time.Year;
 public class App {
     Scanner inp = new Scanner(System.in);
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         App myApp = new App();
         Year now = Year.now();
